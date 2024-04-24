@@ -124,8 +124,6 @@ extension ContentView.ViewModel {
                 newFocusData.dataQuality = Float.random(in: 0.0...100.0)
                 newFocusData.focusLevel = Float.random(in: 0.0...100.0)
                 self?.session?.data.append(newFocusData)
-            } else {
-                print("whoops")
             }
         }
     }

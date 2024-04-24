@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C50BF23-944F-4A43-92DB-0009A3D59E65"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA393B8E-A802-473B-BB84-D2BD71A07B04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neurable/ContentView-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "startSession()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BC66E67-8772-459D-9997-8C30399A35C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neurable/ContentView-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "updateFocusLines()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E26005C-C8DD-4F80-A71F-B79B40BA6613"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neurable/ContentView-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "updateFocusLines()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../var/folders/bl/g7gmd41n2xv4m8sq2fhk24fr0000gn/T/swift-generated-sources/@__swiftmacro_8Neurable11ContentViewV0C5ModelC7session33_19438943995BD2A5330162C34DF7C28ELL18ObservationTrackedfMp_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C - aa49dd26098b5966"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel._session.getter : Swift.Optional&lt;Neurable.FocusData_Session&gt;"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/bl/g7gmd41n2xv4m8sq2fhk24fr0000gn/T/swift-generated-sources/@__swiftmacro_8Neurable11ContentViewV0C5ModelC7session33_19438943995BD2A5330162C34DF7C28ELL18ObservationTrackedfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C - ec80144baf15b0ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel._session.setter : Swift.Optional&lt;Neurable.FocusData_Session&gt;"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/bl/g7gmd41n2xv4m8sq2fhk24fr0000gn/T/swift-generated-sources/@__swiftmacro_8Neurable11ContentViewV0C5ModelC7session33_19438943995BD2A5330162C34DF7C28ELL18ObservationTrackedfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1"
+                  endingLineNumber = "1"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C - 518dd8de8bb4d29a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel._session.modify : Swift.Optional&lt;Neurable.FocusData_Session&gt;"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/bl/g7gmd41n2xv4m8sq2fhk24fr0000gn/T/swift-generated-sources/@__swiftmacro_8Neurable11ContentViewV0C5ModelC7session33_19438943995BD2A5330162C34DF7C28ELL18ObservationTrackedfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1"
+                  endingLineNumber = "1"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C - d2863759be514663"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel._session.modify : Swift.Optional&lt;Neurable.FocusData_Session&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spkchen/Repositories/Neurable/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "6A7B467D-6F99-4641-8C71-5555FF6C087C - 9fd55139e70abd9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel.init() -&gt; Neurable.ContentView.ViewModel"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///var/folders/bl/g7gmd41n2xv4m8sq2fhk24fr0000gn/T/swift-generated-sources/@__swiftmacro_8Neurable11ContentViewV0C5ModelC7session33_19438943995BD2A5330162C34DF7C28ELL18ObservationTrackedfMp_.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1"
+                  endingLineNumber = "1"
+                  offsetFromSymbolStart = "215">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60CAE757-0CF5-4226-8ABF-01704EE428F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Neurable/ViewModels/ContentView-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "updateFocusLines()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "60CAE757-0CF5-4226-8ABF-01704EE428F7 - 5c55203560327327"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel.updateFocusLines() -&gt; ()"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spkchen/Repositories/Neurable/Neurable/ViewModels/ContentView-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "3025">
+               </Location>
+               <Location
+                  uuid = "60CAE757-0CF5-4226-8ABF-01704EE428F7 - 5c55203560327344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Neurable.ContentView.ViewModel.updateFocusLines() -&gt; ()"
+                  moduleName = "Neurable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/spkchen/Repositories/Neurable/Neurable/ViewModels/ContentView-ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "3025">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

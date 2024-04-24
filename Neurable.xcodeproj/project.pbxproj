@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1DFBFBC2BD6CB8E006B2AFB /* NeurableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DFBFBB2BD6CB8E006B2AFB /* NeurableApp.swift */; };
+		E1DFBFBE2BD6CB8E006B2AFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DFBFBD2BD6CB8E006B2AFB /* ContentView.swift */; };
+		E1DFBFC02BD6CB90006B2AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DFBFBF2BD6CB90006B2AFB /* Assets.xcassets */; };
+		E1DFBFC32BD6CB90006B2AFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DFBFC22BD6CB90006B2AFB /* Preview Assets.xcassets */; };
+		E1DFBFCB2BD6CBA2006B2AFB /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = E1DFBFCA2BD6CBA2006B2AFB /* SwiftProtobuf */; };
+		E1DFBFCD2BD6CBA2006B2AFB /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E1DFBFCC2BD6CBA2006B2AFB /* SwiftProtobufPluginLibrary */; };
+		E1DFBFCF2BD6CBA2006B2AFB /* protoc-gen-swift in Frameworks */ = {isa = PBXBuildFile; productRef = E1DFBFCE2BD6CBA2006B2AFB /* protoc-gen-swift */; };
+		E1DFBFD22BD6CBD4006B2AFB /* ProtobufValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DFBFD02BD6CBD4006B2AFB /* ProtobufValidator.swift */; };
+		E1DFBFD32BD6CBD4006B2AFB /* session.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DFBFD12BD6CBD4006B2AFB /* session.pb.swift */; };
+		E1DFBFD52BD6E603006B2AFB /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DFBFD42BD6E603006B2AFB /* ContentView-ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1DFBFB82BD6CB8E006B2AFB /* Neurable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neurable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DFBFBB2BD6CB8E006B2AFB /* NeurableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurableApp.swift; sourceTree = "<group>"; };
+		E1DFBFBD2BD6CB8E006B2AFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1DFBFBF2BD6CB90006B2AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1DFBFC22BD6CB90006B2AFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1DFBFD02BD6CBD4006B2AFB /* ProtobufValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtobufValidator.swift; sourceTree = "<group>"; };
+		E1DFBFD12BD6CBD4006B2AFB /* session.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = session.pb.swift; sourceTree = "<group>"; };
+		E1DFBFD42BD6E603006B2AFB /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DFBFB52BD6CB8E006B2AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DFBFCD2BD6CBA2006B2AFB /* SwiftProtobufPluginLibrary in Frameworks */,
+				E1DFBFCB2BD6CBA2006B2AFB /* SwiftProtobuf in Frameworks */,
+				E1DFBFCF2BD6CBA2006B2AFB /* protoc-gen-swift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E129CDC82BD975EE00866601 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFD12BD6CBD4006B2AFB /* session.pb.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E129CDC92BD975F700866601 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFBD2BD6CB8E006B2AFB /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E129CDCA2BD975FE00866601 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFD42BD6E603006B2AFB /* ContentView-ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1DFBFAF2BD6CB8E006B2AFB = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFBA2BD6CB8E006B2AFB /* Neurable */,
+				E1DFBFB92BD6CB8E006B2AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DFBFB92BD6CB8E006B2AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFB82BD6CB8E006B2AFB /* Neurable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DFBFBA2BD6CB8E006B2AFB /* Neurable */ = {
+			isa = PBXGroup;
+			children = (
+				E129CDC82BD975EE00866601 /* Models */,
+				E129CDC92BD975F700866601 /* Views */,
+				E129CDCA2BD975FE00866601 /* ViewModels */,
+				E1DFBFBB2BD6CB8E006B2AFB /* NeurableApp.swift */,
+				E1DFBFD02BD6CBD4006B2AFB /* ProtobufValidator.swift */,
+				E1DFBFBF2BD6CB90006B2AFB /* Assets.xcassets */,
+				E1DFBFC12BD6CB90006B2AFB /* Preview Content */,
+			);
+			path = Neurable;
+			sourceTree = "<group>";
+		};
+		E1DFBFC12BD6CB90006B2AFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFBFC22BD6CB90006B2AFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DFBFB72BD6CB8E006B2AFB /* Neurable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DFBFC62BD6CB90006B2AFB /* Build configuration list for PBXNativeTarget "Neurable" */;
+			buildPhases = (
+				E1DFBFB42BD6CB8E006B2AFB /* Sources */,
+				E1DFBFB52BD6CB8E006B2AFB /* Frameworks */,
+				E1DFBFB62BD6CB8E006B2AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neurable;
+			packageProductDependencies = (
+				E1DFBFCA2BD6CBA2006B2AFB /* SwiftProtobuf */,
+				E1DFBFCC2BD6CBA2006B2AFB /* SwiftProtobufPluginLibrary */,
+				E1DFBFCE2BD6CBA2006B2AFB /* protoc-gen-swift */,
+			);
+			productName = Neurable;
+			productReference = E1DFBFB82BD6CB8E006B2AFB /* Neurable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DFBFB02BD6CB8E006B2AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E1DFBFB72BD6CB8E006B2AFB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E1DFBFB32BD6CB8E006B2AFB /* Build configuration list for PBXProject "Neurable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1DFBFAF2BD6CB8E006B2AFB;
+			packageReferences = (
+				E1DFBFC92BD6CBA2006B2AFB /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
+			productRefGroup = E1DFBFB92BD6CB8E006B2AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DFBFB72BD6CB8E006B2AFB /* Neurable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DFBFB62BD6CB8E006B2AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DFBFC32BD6CB90006B2AFB /* Preview Assets.xcassets in Resources */,
+				E1DFBFC02BD6CB90006B2AFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DFBFB42BD6CB8E006B2AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DFBFBE2BD6CB8E006B2AFB /* ContentView.swift in Sources */,
+				E1DFBFBC2BD6CB8E006B2AFB /* NeurableApp.swift in Sources */,
+				E1DFBFD52BD6E603006B2AFB /* ContentView-ViewModel.swift in Sources */,
+				E1DFBFD22BD6CBD4006B2AFB /* ProtobufValidator.swift in Sources */,
+				E1DFBFD32BD6CBD4006B2AFB /* session.pb.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1DFBFC42BD6CB90006B2AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1DFBFC52BD6CB90006B2AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DFBFC72BD6CB90006B2AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neurable/Preview Content\"";
+				DEVELOPMENT_TEAM = 7V3NB8DRHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.chen.Neurable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1DFBFC82BD6CB90006B2AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neurable/Preview Content\"";
+				DEVELOPMENT_TEAM = 7V3NB8DRHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.chen.Neurable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DFBFB32BD6CB8E006B2AFB /* Build configuration list for PBXProject "Neurable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DFBFC42BD6CB90006B2AFB /* Debug */,
+				E1DFBFC52BD6CB90006B2AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DFBFC62BD6CB90006B2AFB /* Build configuration list for PBXNativeTarget "Neurable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DFBFC72BD6CB90006B2AFB /* Debug */,
+				E1DFBFC82BD6CB90006B2AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1DFBFC92BD6CBA2006B2AFB /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1DFBFCA2BD6CBA2006B2AFB /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1DFBFC92BD6CBA2006B2AFB /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		E1DFBFCC2BD6CBA2006B2AFB /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1DFBFC92BD6CBA2006B2AFB /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		E1DFBFCE2BD6CBA2006B2AFB /* protoc-gen-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1DFBFC92BD6CBA2006B2AFB /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = "protoc-gen-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1DFBFB02BD6CB8E006B2AFB /* Project object */;
+}
